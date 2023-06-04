@@ -1,0 +1,39 @@
+.footer-container {
+  & div a:hover .icon {
+    fill: white;
+    transition: all 0.3s;
+  }
+}
+#message {
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 2rem;
+  background-color: #aacb73;
+  color: #fff;
+  z-index: 9999;
+  width: 10%;
+  border-radius: 30px;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear, transform 0.5s ease;
+}
+
+#message.show {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(-50%, 0);
+  animation: slideUp 0.5s ease 3s forwards;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translate(-50%, 0);
+  }
+  100% {
+    transform: translate(-50%, -100%);
+  }
+}

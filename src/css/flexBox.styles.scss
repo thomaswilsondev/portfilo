@@ -1,0 +1,22 @@
+.flexBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  &Colum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &Start {
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+    &Colum {
+      display: flex;
+      flex-direction: column;
+      font-family: Arial;
+    }
+  }
+}
