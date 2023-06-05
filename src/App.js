@@ -8,7 +8,7 @@ function App() {
   return (
     <div className=" bg-[#090e16] w-screen">
       <PageTop />
-      {/* <PageMedium /> */}
+      <PageMedium />
       <PageBottom />
     </div>
   );

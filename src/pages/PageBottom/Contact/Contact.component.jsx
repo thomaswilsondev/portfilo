@@ -49,7 +49,7 @@ const Contact = () => {
     copyToClipboard(text);
   }
   return (
-    <div className="contact-container flexBoxStart w-full h-full ">
+    <div className="contact-container bg-color flexBoxStart w-full h-full ">
       <div className="flexBoxStartColum w-[66.3rem] h-[44.7rem] ">
         <div className="contact-information w-full h-[34.6rem] flexBoxStartColum gap-[6.4rem]">
           <div className="flexBoxColum contact-title">
@@ -73,17 +73,19 @@ const Contact = () => {
                 <span className="text-[#7B4AE2] font-extrabold  text-[2rem]">
                   E-mail:
                 </span>
-                <span
-                  className="text-white font-semibold  text-[1.8rem]"
-                  id="email"
-                >
-                  baobao22.work@gmail.com
-                </span>
+                <div className="flexBox gap-4">
+                  <span
+                    className="text-white font-semibold  text-[1.8rem]"
+                    id="email"
+                  >
+                    baobao22.work@gmail.com
+                  </span>
+                  <Copy
+                    onClick={handleClick}
+                    className=" w-12 h-12 stroke-[#7B4AE2]"
+                  />
+                </div>
               </p>
-              <Copy
-                onClick={handleClick}
-                className="copy w-12 h-12 stroke-[#7B4AE2]"
-              />
             </div>
           </div>
         </div>

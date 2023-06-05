@@ -37,3 +37,52 @@
     transform: translate(-50%, -100%);
   }
 }
+
+//skill
+.SkillsItemContainer {
+  /* Thiết lập chiều rộng tối đa cho phần tử chứa */
+  max-width: 100%;
+  overflow-x: scroll; /* Tạo hiệu ứng cuộn ngang */
+
+  /* Thiết lập các thuộc tính cho phần tử con */
+  ul {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 71px;
+    min-width: 100%; /* Thiết lập chiều rộng tối thiểu cho phần tử con */
+    flex-wrap: nowrap; /* Hạn chế phần tử con bị xếp xuống dòng */
+    padding-left: 13rem;
+  }
+
+  li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    font-weight: bold;
+    margin-right: 32px;
+  }
+}
+.bg-color {
+  background-color: black;
+}
+.button {
+  border: 2px solid #7b4ae2;
+  transition: all 0.3s;
+  &:hover span {
+    color: white;
+    opacity: 1;
+  }
+  &:hover .icon {
+    stroke: white;
+    opacity: 0.8;
+  }
+}
+.li-cart {
+  border: 2px solid rgba(123, 74, 226, 0.5);
+}
+.colorPuple {
+  background-color: rgba(123, 74, 226, 0.1);
+  color: #7b4ae2;
+}
