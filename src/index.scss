@@ -25,20 +25,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #090e16;
-  width: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-@media (max-width: 54.4em) {
-  body {
-    width: 100vw;
-  }
-}
-@media (max-width: 84em) {
-  body {
-    width: 100vw;
-  }
 }
