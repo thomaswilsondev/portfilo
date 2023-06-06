@@ -9,7 +9,13 @@ import Chapter from "../../../components/Chapter/Chapter.component";
 const HeaderNavigation = () => {
   return (
     <div className="flex w-[138rem] gap-[10rem] justify-center items-center ">
-      <div className="w-3/6 pl-[30px] flex  flex-col gap-[2.11375rem] self-center">
+      <div
+        className="w-3/6 pl-[30px] flex  flex-col gap-[2.11375rem] self-center"
+        data-aos="fade-right"
+        data-aos-delay="1400"
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-out"
+      >
         <Chapter
           css=" w-[16rem]"
           cssText="text-[2rem]   "
@@ -51,16 +57,28 @@ const HeaderNavigation = () => {
           </a>
         </div>
       </div>
-      <div className="w-3/6 justify-self-center self-center ">
+      <div
+        className="w-3/6 justify-self-center self-center "
+        data-aos="flip-left"
+        data-aos-delay="1000"
+        data-aos-duration="2000"
+      >
         <AvatarAndIcons className="w-[600px] h-[600px]" />
       </div>
-      <div className="w-2/6 flex flex-col justify-center items-center pr-6">
+      <div
+        className="w-2/6 flex flex-col justify-center items-center pr-6"
+        data-aos="fade-left"
+        data-aos-delay="1400"
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-out"
+      >
         <a href="/data/autoCV.pdf" download>
           <button class="flex gap-2 justify-center items-center rounded-full rounded-30 border-2 border-purple-700 py-[1.25rem] px-[2.5rem] text-purple-700 hover:text-white hover:bg-purple-700 hover:border-gray-700">
             <span>Download CV</span>
           </button>
         </a>
       </div>
+      <div id="about" className="mt-[500px]"></div>
     </div>
   );
 };

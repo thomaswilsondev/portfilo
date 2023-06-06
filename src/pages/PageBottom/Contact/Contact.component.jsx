@@ -52,6 +52,9 @@ const Contact = () => {
     <div
       className="contact-container  flexBoxStart w-full h-full "
       id="contact"
+      data-aos="zoom-in"
+      data-aos-delay="50"
+      data-aos-duration="2000"
     >
       <div className="flexBoxStartColum w-[66.3rem] h-[44.7rem] ">
         <div className="contact-information w-full h-[34.6rem] flexBoxStartColum gap-[6.4rem]">

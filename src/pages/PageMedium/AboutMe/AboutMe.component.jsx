@@ -5,14 +5,26 @@ const AboutMe = () => {
   return (
     <div
       className="flex gap-12 w-[1639.92px] h-[498px] mb-[14.7rem] ml-[20px]"
-      id="about"
+      data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-duration="2800"
     >
-      <div className="flex-1 flexBox ">
+      <div
+        className="flex-1 flexBox "
+        data-aos="fade-up-right"
+        data-aos-delay="100"
+        data-aos-duration="2500"
+      >
         <div className="w-[40rem] h-[40rem] relative bg-white rounded-full ">
           <img className="w-[44rem] h-[44rem] absolute" src="" alt="avatar" />
         </div>
       </div>
-      <div className="flex-1 flex flex-col gap-12">
+      <div
+        className="flex-1 flex flex-col gap-12"
+        data-aos="fade-up-left"
+        data-aos-delay="100"
+        data-aos-duration="2500"
+      >
         <Chapter
           css=" w-[16rem]"
           cssText="text-white text-[2rem] tex-bold"
@@ -39,6 +51,7 @@ const AboutMe = () => {
           🚀 Every day try to be a little better than yesterday.
         </p>
       </div>
+      <div id="project" className="mt-[500px]"></div>
     </div>
   );
 };

@@ -142,3 +142,10 @@
 .bground {
   background-color: rgba(123, 74, 226, 0.1);
 }
+.snake {
+  transition: all 0.3s ease-in-out;
+}
+
+a[href="#about"]:active .snake {
+  transition: all 3s;
+}

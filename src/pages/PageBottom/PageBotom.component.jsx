@@ -4,7 +4,12 @@ import Footer from "./Footer/Footer.component";
 import "../../css/flexBox.styles.scss";
 const PageBottom = () => {
   return (
-    <section className="flexBoxColum">
+    <section
+      className="flexBoxColum"
+      data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-duration="2800"
+    >
       <Contact />
       <Footer />
     </section>

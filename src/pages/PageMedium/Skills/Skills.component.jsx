@@ -9,7 +9,12 @@ import SkillsItem from "../../../components/SkillsItem/SkillsItem.component";
 import { skillData, otherTechnologies } from "../../../data/skill.data";
 const Skills = () => {
   return (
-    <div className="skills-container flexBoxColum pb-[14rem] " id="skill">
+    <div
+      className="skills-container flexBoxColum pb-[14rem] mt[2.6rem]"
+      data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-duration="2800"
+    >
       <Chapter
         css="w-[28rem] mb-[3.3rem]"
         cssText="text-[2rem] text-white font-bold"
@@ -18,7 +23,9 @@ const Skills = () => {
       <h2 className="text-white text-[4.8rem] font-extrabold mb-[11rem]">
         Technologies and skills
       </h2>
+
       <SkillsItem text="Technology I use every day" data={skillData} />
+
       <SkillsItem
         css="gap-14"
         text="Other technologies"

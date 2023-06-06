@@ -29,16 +29,37 @@ const PortfolioTitle = () => {
   };
   const renderItems = showAll ? lists[listIndex] : lists[listIndex].slice(0, 8);
   return (
-    <div className="mx-[7.6rem] h-full mb-[10.6rem]" id="project">
+    <div
+      className="mx-[7.6rem] h-full  mb-[12.6rem]"
+      id="project"
+      data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-duration="2800"
+    >
       <Chapter
         cssText="text-[2rem] font-bold "
         text="🔗 Portfolio"
         css="mb-[3.5rem]  w-[16rem] "
       />
-      <div className=" project-container flex  justify-between items-center mb-[11.2rem]">
-        <h2 className="text-white text-[4.8rem] font-extrabold">Projects</h2>
+      <div
+        className=" project-container flex  justify-between items-center mb-[11.2rem]"
+        x
+      >
+        <h2
+          className="text-white text-[4.8rem] font-extrabold"
+          data-aos="fade-up-right"
+          data-aos-delay="100"
+          data-aos-duration="2000"
+        >
+          Projects
+        </h2>
         {/* List button */}
-        <div className="flex gap-6">
+        <div
+          className="flex gap-6"
+          data-aos="fade-up-left"
+          data-aos-delay="100"
+          data-aos-duration="2000"
+        >
           <Button
             cssText="text-[1.8rem] text-bold text-[#7B4AE2] opacity-50 "
             text="Done Project Large"
@@ -69,7 +90,12 @@ const PortfolioTitle = () => {
         </div>
       </div>
       <div className="flex justify-center items-center mb-[5.9rem] ">
-        <ul className="grid grid-cols-4 gap-x-12 gap-y-12 w-[140rem]">
+        <ul
+          className="grid grid-cols-4 gap-x-12 gap-y-12 w-[140rem]"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="2800"
+        >
           {renderItems.map((item, idx) => (
             <CartItem data={item} key={idx}></CartItem>
           ))}
@@ -80,7 +106,10 @@ const PortfolioTitle = () => {
         onClick={handlerRenderCar}
         className="w-full flex justify-center items-center"
       >
-        <p className="flex text-[2.2rem] p-[4px]  justify-end items-center  gap-4 transition-all duration-300 opacity-40 hover:opacity-100 ">
+        <p
+          className="flex text-[2.2rem] p-[4px]  justify-end items-center  gap-4 transition-all duration-300 opacity-40 hover:opacity-100 "
+          id="skill"
+        >
           {!showAll ? (
             <span className="  font-bold text-[#7B4AE2] ">
               See more projects
