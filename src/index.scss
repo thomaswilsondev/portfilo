@@ -1,9 +1,9 @@
 @tailwind base;
-@import "../src/css/flexBox.styles.scss";
-@import "../src/css/mobile.styles.scss";
-@import "../src/App.scss";
 @tailwind components;
 @tailwind utilities;
+@import "../src/css/flexBox.styles.scss";
+@import "../src/css/mobile.styles.scss";
+
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;700;800;900&display=swap");
 
 * {
@@ -25,20 +25,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #090e16;
-  width: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-@media (max-width: 54.4em) {
-  body {
-    width: 100vw;
-  }
-}
-@media (max-width: 84em) {
-  body {
-    width: 100vw;
-  }
 }

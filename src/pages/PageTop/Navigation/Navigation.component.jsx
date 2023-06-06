@@ -1,10 +1,9 @@
 import React from "react";
 import { ReactComponent as Logo } from "../../../assets/Logo.svg";
-import "../../../css/tablets.styles.scss";
 const Navigation = () => {
   return (
     <nav
-      className=" Navigation h-[6.4rem] w-[140rem] bg-purple-600 mb-[100px]  bg-opacity-10 flex justify-center items-center p-[3rem] rounded-2xl "
+      className=" Navigation h-[6.4rem] bg-purple-600 mb-[100px]  bg-opacity-10 flex justify-center items-center p-[3rem] rounded-2xl "
       data-aos="fade-down"
       data-aos-delay="2000"
       data-aos-duration="3200"

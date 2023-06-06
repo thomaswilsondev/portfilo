@@ -39,7 +39,7 @@ const PortfolioTitle = () => {
       <Chapter
         cssText="text-[2rem] font-bold "
         text="🔗 Portfolio"
-        css="mb-[3.5rem]  w-[16rem] "
+        css="mb-[3.5rem] "
       />
       <div className="flex  justify-between items-center mb-[11.2rem]" x>
         <h2
@@ -88,7 +88,7 @@ const PortfolioTitle = () => {
       </div>
       <div className="flex justify-center items-center mb-[5.9rem] ">
         <ul
-          className="grid grid-cols-4 gap-x-12 gap-y-12 w-[140rem]"
+          className="grid grid-cols-4 gap-x-12 gap-y-12 "
           data-aos="fade-up"
           data-aos-delay="100"
           data-aos-duration="2800"
@@ -101,7 +101,7 @@ const PortfolioTitle = () => {
 
       <button
         onClick={handlerRenderCar}
-        className="w-full flex justify-center items-center"
+        className="flex justify-center items-center"
       >
         <p
           className="flex text-[2.2rem] p-[4px]  justify-end items-center  gap-4 transition-all duration-300 opacity-40 hover:opacity-100 "

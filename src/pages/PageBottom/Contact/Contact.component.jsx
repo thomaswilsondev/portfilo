@@ -50,14 +50,14 @@ const Contact = () => {
   }
   return (
     <div
-      className="contact-container  flexBoxStart w-full h-full "
+      className="contact-container  flexBoxStart "
       id="contact"
       data-aos="zoom-in"
       data-aos-delay="50"
       data-aos-duration="2000"
     >
-      <div className="flexBoxStartColum w-[66.3rem] h-[44.7rem] ">
-        <div className="contact-information w-full h-[34.6rem] flexBoxStartColum gap-[6.4rem]">
+      <div className="flexBoxStartColum">
+        <div className="contact-information  flexBoxStartColum gap-[6.4rem]">
           <div className="flexBoxColum contact-title">
             <Chapter
               text="📬 Contact"
@@ -73,7 +73,7 @@ const Contact = () => {
               <Phone className="w-12 h-12 " />
               <span className=" font-semibold text-[2rem]">Call me</span>
             </buton>
-            <div className="contact-callMe w-[28.9rem] h-[15.3rem] flexBoxColum gap-[2.1rem] ">
+            <div className="contact-callMe flexBoxColum gap-[2.1rem] ">
               <p className="flexBoxColum ">
                 <PaperAirphane className="w-13 h-13  stroke-[#7B4AE2]" />
                 <span className="text-[#7B4AE2] font-extrabold  text-[2rem]">

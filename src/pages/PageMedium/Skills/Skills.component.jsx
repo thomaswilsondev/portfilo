@@ -16,7 +16,7 @@ const Skills = () => {
       data-aos-duration="2800"
     >
       <Chapter
-        css="w-[28rem] mb-[3.3rem]"
+        css=" mb-[3.3rem]"
         cssText="text-[2rem] text-white font-bold"
         text="🧑‍💻 Skills - Experiences"
       />

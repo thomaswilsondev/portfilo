@@ -5,7 +5,7 @@ import Chapter from "../../../components/Chapter/Chapter.component";
 const AboutMe = () => {
   return (
     <div
-      className="AboutMe flex gap-12 w-[1639.92px] h-[498px] mb-[14.7rem] ml-[20px]"
+      className="AboutMe flex gap-12  mb-[14.7rem] ml-[20px]"
       data-aos="fade-up"
       data-aos-delay="100"
       data-aos-duration="2800"
@@ -16,8 +16,8 @@ const AboutMe = () => {
         data-aos-delay="100"
         data-aos-duration="2500"
       >
-        <div className="w-[40rem] h-[40rem] relative bg-white rounded-full ">
-          <img className="w-[44rem] h-[44rem] absolute" src="" alt="avatar" />
+        <div className=" relative bg-white rounded-full ">
+          <img className=" absolute" src="" alt="avatar" />
         </div>
       </div>
       <div
@@ -27,7 +27,7 @@ const AboutMe = () => {
         data-aos-duration="2500"
       >
         <Chapter
-          css=" w-[16rem]"
+          css=" "
           cssText="text-white text-[2rem] tex-bold"
           text="🧐 About me"
         />
