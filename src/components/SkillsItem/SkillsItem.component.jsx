@@ -10,19 +10,17 @@ const SkillsItem = (props) => {
   return (
     <>
       <h4 className="text-white text-[24px] opacity-50 mb-[52px]">{text}</h4>
-      <div className="SkillsItemContainer flex flex-col justify-center items-center">
-        <ul className={classNames("mb-[71px]", css)}>
-          {data.map((skill) => {
-            const { name, svg } = skill;
-            return (
-              <li className=" flex flex-col justify-center items-center gap-2 font-bold">
-                <div>{svg}</div>
-                <span className="text-[22px] text-white">{name}</span>
-              </li>
-            );
-          })}
-        </ul>
-      </div>
+      <ul className={classNames("mb-[71px] flexBox gap-12", css)}>
+        {data.map((skill) => {
+          const { name, svg } = skill;
+          return (
+            <li className=" flex flex-col justify-center items-center gap-2 font-bold">
+              <div>{svg}</div>
+              <span className="text-[22px] text-white">{name}</span>
+            </li>
+          );
+        })}
+      </ul>
     </>
   );
 };

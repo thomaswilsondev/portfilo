@@ -9,9 +9,9 @@ import SkillsItem from "../../../components/SkillsItem/SkillsItem.component";
 import { skillData, otherTechnologies } from "../../../data/skill.data";
 const Skills = () => {
   return (
-    <div className="skills-container flexBoxColum pb-[14rem] ">
+    <div className="skills-container flexBoxColum pb-[14rem] " id="skill">
       <Chapter
-        css="w-[25rem]  mb-[3.3rem]"
+        css="w-[28rem] mb-[3.3rem]"
         cssText="text-[2rem] text-white font-bold"
         text="🧑‍💻 Skills - Experiences"
       />

@@ -29,38 +29,38 @@ const PortfolioTitle = () => {
   };
   const renderItems = showAll ? lists[listIndex] : lists[listIndex].slice(0, 8);
   return (
-    <div className=" px-[11.6rem] h-full mb-[10.6rem]">
+    <div className="mx-[7.6rem] h-full mb-[10.6rem]" id="project">
       <Chapter
-        cssText="text-[2rem] text-white font-bold "
+        cssText="text-[2rem] font-bold "
         text="🔗 Portfolio"
-        css="mb-[3.7rem] "
+        css="mb-[3.5rem]  w-[16rem] "
       />
-      <div className=" project-container flex  justify-between items-cente mb-[11.2rem]">
+      <div className=" project-container flex  justify-between items-center mb-[11.2rem]">
         <h2 className="text-white text-[4.8rem] font-extrabold">Projects</h2>
         {/* List button */}
         <div className="flex gap-6">
           <Button
-            cssText="text-[2rem] text-bold text-[#7B4AE2] opacity-50 "
+            cssText="text-[1.8rem] text-bold text-[#7B4AE2] opacity-50 "
             text="Done Project Large"
-            css="h-[50px]"
+            css="h-18 rounded-lg "
             icon={
-              <BatteryFull className="icon w-16 h-16 stroke-[#7B4AE2] opacity-40 hover:stroke-white" />
+              <BatteryFull className="icon w-12 h-12 stroke-[#7B4AE2] opacity-40 hover:stroke-white" />
             }
             click={() => handleButtonClick(0)}
           />
           <Button
-            cssText="text-[2rem] text-bold text-[#7B4AE2] opacity-50 "
+            cssText="text-[1.8rem] text-bold text-[#7B4AE2] opacity-50 "
             text="Done Project Small"
-            css="h-[50px]"
+            css="h-18 rounded-lg"
             icon={
               <BatteryMedium className="icon w-16 h-16 stroke-[#7B4AE2] opacity-40 hover:stroke-white" />
             }
             click={() => handleButtonClick(1)}
           />
           <Button
-            cssText="text-[2rem] text-bold text-[#7B4AE2] opacity-50 "
+            cssText="text-[1.8rem] text-[#7B4AE2] opacity-50 "
             text="Doing Project "
-            css="h-[50px]"
+            css="h-18 rounded-lg"
             icon={
               <BatteryLow className="icon w-16 h-16 stroke-[#7B4AE2] opacity-40 hover:stroke-white" />
             }
@@ -68,18 +68,25 @@ const PortfolioTitle = () => {
           />
         </div>
       </div>
+      <div className="flex justify-center items-center mb-[5.9rem] ">
+        <ul className="grid grid-cols-4 gap-x-12 gap-y-12 w-[140rem]">
+          {renderItems.map((item, idx) => (
+            <CartItem data={item} key={idx}></CartItem>
+          ))}
+        </ul>
+      </div>
 
-      <ul className="project grid grid-cols-4 gap-x-[7.9rem] gap-y-[4.8rem] mb-[6rem]">
-        {renderItems.map((item, idx) => (
-          <CartItem data={item} key={idx}></CartItem>
-        ))}
-      </ul>
-      <button onClick={handlerRenderCar} className="w-full">
-        <p className="flex text-[2rem] justify-end items-center  gap-2 text-white transition-all duration-30 opacity-50 hover:opacity-100 ">
+      <button
+        onClick={handlerRenderCar}
+        className="w-full flex justify-center items-center"
+      >
+        <p className="flex text-[2.2rem] p-[4px]  justify-end items-center  gap-4 transition-all duration-300 opacity-40 hover:opacity-100 ">
           {!showAll ? (
-            <span className="  m-[3px] text-[#7B4AE2] ">See more projects</span>
+            <span className="  font-bold text-[#7B4AE2] ">
+              See more projects
+            </span>
           ) : (
-            <span className="  m-[3px] text-[#7B4AE2] ">
+            <span className="  font-bold text-[#7B4AE2] ">
               Hide more projects
             </span>
           )}

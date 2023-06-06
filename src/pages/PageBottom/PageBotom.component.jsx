@@ -4,7 +4,7 @@ import Footer from "./Footer/Footer.component";
 import "../../css/flexBox.styles.scss";
 const PageBottom = () => {
   return (
-    <section className=" w-screen flexBoxColum">
+    <section className="flexBoxColum">
       <Contact />
       <Footer />
     </section>

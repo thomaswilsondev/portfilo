@@ -5,11 +5,11 @@ const Programming = (props) => {
   return (
     <div
       className={classNames(
-        "programming w-[83px] h-[30px] rounded-lg px-[19px] py-[9px] flex  justify-center items-center",
+        " text-[18px] font-bold w-[83px] h-[30px] rounded-lg px-[19px] py-[9px] flex  justify-center items-center",
         color
       )}
     >
-      {text}
+      <span>{text}</span>
     </div>
   );
 };

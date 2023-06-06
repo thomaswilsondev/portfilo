@@ -10,7 +10,7 @@ import "../../../css/mobile.styles.scss";
 import "../../../css/desktop.styles.scss";
 const Footer = () => {
   return (
-    <footer className="footer-container w-full h-[8.8rem]  left-[-7%]  bottom-0 flex justify-evenly ">
+    <footer className="bg-color footer-container w-full h-[8.8rem]  left-[-7%]  bottom-0 flex justify-evenly ">
       <p className="flexBox flex-1  text-white opacity-50 text-[1.6rem] font-bold  ">
         Copyright © BaoBao · 2023
       </p>

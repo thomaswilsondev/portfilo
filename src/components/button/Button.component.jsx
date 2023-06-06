@@ -6,7 +6,7 @@ const Button = (props) => {
   return (
     <button
       className={classNames(
-        "button flex gap-3 px-7 py-2 rounded-lg hover:bg-[#7b4ae2] justify-center items-center ",
+        "button flex gap-3 px-7 py-2 rounded-lg hover:bg-[#7b4ae2] justify-center items-center transition-all duration-300 ",
         css
       )}
       onClick={click}

@@ -49,7 +49,10 @@ const Contact = () => {
     copyToClipboard(text);
   }
   return (
-    <div className="contact-container bg-color flexBoxStart w-full h-full ">
+    <div
+      className="contact-container  flexBoxStart w-full h-full "
+      id="contact"
+    >
       <div className="flexBoxStartColum w-[66.3rem] h-[44.7rem] ">
         <div className="contact-information w-full h-[34.6rem] flexBoxStartColum gap-[6.4rem]">
           <div className="flexBoxColum contact-title">
