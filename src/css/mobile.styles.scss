@@ -126,4 +126,15 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
+  .programmingContainer {
+    margin-top: 25px;
+    & span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      width: 40px;
+      padding: 5px 30px;
+    }
+  }
 }

@@ -10,7 +10,7 @@ const CartItem = (props) => {
         {data.name}
       </h3>
       <p className="text-[14px] text-white opacity-50 ">{data.description}</p>
-      <div className="programmingChapter flex gap-3 mb-[2.2rem] ">
+      <div className=" flex gap-3 mb-[2.2rem] ">
         {data.technology.map((item, idx) =>
           idx === 0 ? (
             <Programming key={idx} color="colorGreen" text={item} />

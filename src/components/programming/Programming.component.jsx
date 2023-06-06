@@ -5,7 +5,7 @@ const Programming = (props) => {
   return (
     <div
       className={classNames(
-        " text-[18px] font-bold rounded-lg px-[19px] py-[9px] flex  justify-center items-center",
+        "programmingContainer text-[18px] font-bold rounded-lg flex mt-[12px] justify-center items-center",
         color
       )}
     >
