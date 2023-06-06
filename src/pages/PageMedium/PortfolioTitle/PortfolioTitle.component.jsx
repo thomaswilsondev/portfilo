@@ -30,7 +30,7 @@ const PortfolioTitle = () => {
   const renderItems = showAll ? lists[listIndex] : lists[listIndex].slice(0, 8);
   return (
     <div
-      className=" mx-[7.6rem] h-full  mb-[12.6rem]"
+      className="w-[1500px] mx-[7.6rem] h-full  mb-[12.6rem]"
       id="project"
       data-aos="fade-up"
       data-aos-delay="100"
