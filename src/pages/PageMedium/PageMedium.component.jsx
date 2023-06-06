@@ -11,7 +11,7 @@ const PageMedium = () => {
     >
       <AboutMe />
       <PortfolioTitle />
-      {/* <Skills /> */}
+      <Skills />
     </section>
   );
 };

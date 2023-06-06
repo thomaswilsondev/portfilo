@@ -122,4 +122,8 @@
   #project {
     margin-top: 54px;
   }
+  .SkillsItemContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

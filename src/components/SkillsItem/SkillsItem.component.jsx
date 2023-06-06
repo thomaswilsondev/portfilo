@@ -11,7 +11,10 @@ const SkillsItem = (props) => {
     <>
       <h4 className="text-white text-[24px] opacity-50 mb-[52px]">{text}</h4>
       <ul
-        className={classNames("mb-[71px] flexBox gap-12", css)}
+        className={classNames(
+          "SkillsItemContainer mb-[71px] flexBox gap-12",
+          css
+        )}
         data-aos="flip-left"
         data-aos-delay="100"
         data-aos-duration="2000"

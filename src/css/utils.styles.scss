@@ -38,46 +38,6 @@
   }
 }
 
-//skill
-.SkillsItemContainer {
-  /* Thiết lập chiều rộng tối đa cho phần tử chứa */
-  max-width: 100%;
-  overflow-x: scroll; /* Tạo hiệu ứng cuộn ngang */
-
-  /* Thiết lập các thuộc tính cho phần tử con */
-  ul {
-    display: flex;
-    gap: 6px;
-    margin-bottom: 71px;
-    min-width: 100%; /* Thiết lập chiều rộng tối thiểu cho phần tử con */
-    flex-wrap: nowrap; /* Hạn chế phần tử con bị xếp xuống dòng */
-    padding-left: 13rem;
-  }
-
-  li {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2px;
-    font-weight: bold;
-    margin-right: 32px;
-  }
-
-  /* Thiết lập màu cho thanh cuộn và thanh kéo */
-  ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-  }
-
-  ::-webkit-scrollbar-track {
-    background-color: black;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background-color: black;
-  }
-}
 .bg-color {
   background-color: black;
   opacity: 0.6;
