@@ -16,27 +16,27 @@ const Footer = () => {
       </p>
       <div className="flexBox flex-1 gap-12">
         <a
-          href="/"
+          href="https://www.linkedin.com/in/thomaswilsondev/"
           className=" flexBox w-[38px]  h-[38px] bg-white rounded-full opacity-30 hover:bg-[#7B4AE2] hover:opacity-100 transition-all duration-300"
         >
           <Linkedin className="icon w-[24px] h-[24px]" />
         </a>
 
         <a
-          href="/"
+          href="https://github.com/thomaswilsondev"
           className="flexBox w-[38px]  h-[38px] bg-white rounded-full opacity-30 hover:bg-[#7B4AE2] hover:opacity-100 transition-all duration-300"
         >
           <Github className="icon w-[24px] h-[24px]" />
         </a>
 
         <a
-          href="/"
+          href="mailto:baobao22.work@gmail.com"
           className=" flexBox w-[38px]  h-[38px] bg-white rounded-full opacity-30 hover:bg-[#7B4AE2] hover:opacity-100 transition-all duration-300"
         >
           <Email className=" icon w-[24px] h-[24px]" />
         </a>
         <a
-          href="/"
+          href="tel:+84976120848"
           className=" flexBox w-[38px]  h-[38px] bg-white rounded-full opacity-30 hover:bg-[#7B4AE2] hover:opacity-100 transition-all duration-300"
         >
           <Phone className=" icon w-[24px] h-[24px]" />

@@ -8,7 +8,7 @@ import { ReactComponent as AvatarAndIcons } from "../../../assets/AvatarAndIcons
 import Chapter from "../../../components/Chapter/Chapter.component";
 const HeaderNavigation = () => {
   return (
-    <div className="flex w-[138rem] gap-[10rem] justify-center items-center ">
+    <div className=" HeaderNavigation flex w-[138rem] gap-[10rem] justify-center items-center ">
       <div
         className="w-3/6 pl-[30px] flex  flex-col gap-[2.11375rem] self-center"
         data-aos="fade-right"
@@ -29,7 +29,7 @@ const HeaderNavigation = () => {
         <div className="flex gap-[0.5rem]">
           {/* GITHUB */}
           <a
-            href=""
+            href="https://github.com/thomaswilsondev"
             className="flex justify-center rounded-full items-center bg-gray-300 w-11 h-11 hover:bg-[#7B4AE2] transition-all duration-300 "
           >
             <Github className="w-7 h-7 " />
@@ -58,7 +58,7 @@ const HeaderNavigation = () => {
         </div>
       </div>
       <div
-        className="w-3/6 justify-self-center self-center "
+        className="imageAvatar w-3/6 justify-self-center self-center "
         data-aos="flip-left"
         data-aos-delay="1000"
         data-aos-duration="2000"
@@ -72,8 +72,8 @@ const HeaderNavigation = () => {
         data-aos-duration="2000"
         data-aos-easing="ease-in-out"
       >
-        <a href="/data/autoCV.pdf" download>
-          <button class="flex gap-2 justify-center items-center rounded-full rounded-30 border-2 border-purple-700 py-[1.25rem] px-[2.5rem] text-purple-700 hover:text-white hover:bg-purple-700 hover:border-gray-700">
+        <a href="CV.pdf" download="CV.pdf">
+          <button class="w-[150px] flex gap-2 justify-center items-center rounded-full rounded-30 border-2 border-purple-700 py-[1.25rem] px-[2.5rem] text-purple-700 hover:text-white hover:bg-purple-700 hover:border-gray-700">
             <span>Download CV</span>
           </button>
         </a>

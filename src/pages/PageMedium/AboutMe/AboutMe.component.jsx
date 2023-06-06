@@ -1,10 +1,11 @@
 import "../../../css/flexBox.styles.scss";
 // COMPONENTS
 import Chapter from "../../../components/Chapter/Chapter.component";
+
 const AboutMe = () => {
   return (
     <div
-      className="flex gap-12 w-[1639.92px] h-[498px] mb-[14.7rem] ml-[20px]"
+      className="AboutMe flex gap-12 w-[1639.92px] h-[498px] mb-[14.7rem] ml-[20px]"
       data-aos="fade-up"
       data-aos-delay="100"
       data-aos-duration="2800"
@@ -20,7 +21,7 @@ const AboutMe = () => {
         </div>
       </div>
       <div
-        className="flex-1 flex flex-col gap-12"
+        className="AboutMeContent flex-1 flex flex-col gap-12"
         data-aos="fade-up-left"
         data-aos-delay="100"
         data-aos-duration="2500"

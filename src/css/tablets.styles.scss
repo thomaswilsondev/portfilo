@@ -1,3 +1,32 @@
 /**************************/
 /* BELOW 1200px (Landscape Tablets) */
 /**************************/
+@media (max-width: 75em) {
+  .Navigation {
+    display: none;
+  }
+  .HeaderNavigation {
+    width: 100vh;
+    flex-direction: column;
+    & .imageAvatar {
+      width: 285.57px;
+      height: 285.57px;
+    }
+  }
+  //About Me
+
+  .AboutMe {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &Content {
+      width: 327px;
+      height: 374px;
+    }
+  }
+
+  //Project
+  .PortfolioTitle {
+    flex-direction: column;
+  }
+}

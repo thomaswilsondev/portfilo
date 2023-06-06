@@ -30,7 +30,7 @@ const PortfolioTitle = () => {
   const renderItems = showAll ? lists[listIndex] : lists[listIndex].slice(0, 8);
   return (
     <div
-      className="mx-[7.6rem] h-full  mb-[12.6rem]"
+      className=" mx-[7.6rem] h-full  mb-[12.6rem]"
       id="project"
       data-aos="fade-up"
       data-aos-delay="100"
@@ -41,10 +41,7 @@ const PortfolioTitle = () => {
         text="🔗 Portfolio"
         css="mb-[3.5rem]  w-[16rem] "
       />
-      <div
-        className=" project-container flex  justify-between items-center mb-[11.2rem]"
-        x
-      >
+      <div className="flex  justify-between items-center mb-[11.2rem]" x>
         <h2
           className="text-white text-[4.8rem] font-extrabold"
           data-aos="fade-up-right"
