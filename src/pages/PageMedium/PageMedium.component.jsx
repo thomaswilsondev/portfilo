@@ -10,8 +10,8 @@ const PageMedium = () => {
       data-aos-duration="2800"
     >
       <AboutMe />
-      {/* <PortfolioTitle /> */}
-      <Skills />
+      <PortfolioTitle />
+      {/* <Skills /> */}
     </section>
   );
 };

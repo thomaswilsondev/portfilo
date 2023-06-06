@@ -63,7 +63,7 @@ const HeaderNavigation = () => {
       </div>
       <div
         className="Button w-2/6 relative"
-        // data-aos="fade-left"
+        data-aos="fade-left"
         data-aos-delay="1400"
         data-aos-duration="2000"
         data-aos-easing="ease-in-out"

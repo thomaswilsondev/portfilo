@@ -1,43 +1,45 @@
-import "../../../css/flexBox.styles.scss";
 // COMPONENTS
 import Chapter from "../../../components/Chapter/Chapter.component";
-
 const AboutMe = () => {
   return (
     <div
-      className="AboutMe flex gap-12  mb-[14.7rem] ml-[20px]"
+      className="AboutMeContainer flex gap-12  mb-[14.7rem] "
       data-aos="fade-up"
       data-aos-delay="100"
       data-aos-duration="2800"
     >
       <div
-        className="flex-1 flexBox "
+        className=" AboutMe w-1/3  flex-1 flexBox "
         data-aos="fade-up-right"
         data-aos-delay="100"
         data-aos-duration="2500"
       >
-        <div className=" relative bg-white rounded-full ">
-          <img className=" absolute" src="" alt="avatar" />
+        <div className="AboutMeImg relative bg-white rounded-full ">
+          <img
+            className="rounded-full"
+            src="../../../assets/avatar.png"
+            alt="avatar"
+          />
         </div>
       </div>
       <div
-        className="AboutMeContent flex-1 flex flex-col gap-12"
+        className="TextAbout w-2/3 AboutMeContent flex-1 flex flex-col gap-8"
         data-aos="fade-up-left"
         data-aos-delay="100"
         data-aos-duration="2500"
       >
         <Chapter
-          css=" "
+          css=""
           cssText="text-white text-[2rem] tex-bold"
           text="🧐 About me"
         />
         <h3 className="text-[4.8rem] text-white font-extraBold font-sans">
           LE TAN BAO BAO
         </h3>
-        <p className="text-white opacity-80 text-[2.2rem] font-sans">
+        <p className=" text-white opacity-80 text-[2.2rem] font-sans">
           👋 My name is Le Tan Bao Bao, but you can call me Bao. Honor!
         </p>
-        <div className="flex flex-col gap-2 text-white text-[2.2rem] opacity-80 ">
+        <div className=" flex flex-col gap-2 text-white text-[2.2rem] opacity-80 ">
           <p>
             👨‍💻 For more than 1 year developing and programming interfaces with
             JavaScript, React JS.

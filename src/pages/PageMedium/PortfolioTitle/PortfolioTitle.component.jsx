@@ -30,7 +30,7 @@ const PortfolioTitle = () => {
   const renderItems = showAll ? lists[listIndex] : lists[listIndex].slice(0, 8);
   return (
     <div
-      className="w-[1500px] mx-[7.6rem] h-full  mb-[12.6rem]"
+      className=" mx-[7.6rem] h-full  mb-[12.6rem]"
       id="project"
       data-aos="fade-up"
       data-aos-delay="100"
@@ -41,7 +41,10 @@ const PortfolioTitle = () => {
         text="🔗 Portfolio"
         css="mb-[3.5rem] "
       />
-      <div className="flex  justify-between items-center mb-[11.2rem]" x>
+      <div
+        className="ContextProject flex justify-between items-center mb-[11.2rem]"
+        x
+      >
         <h2
           className="text-white text-[4.8rem] font-extrabold"
           data-aos="fade-up-right"
@@ -86,9 +89,9 @@ const PortfolioTitle = () => {
           />
         </div>
       </div>
-      <div className="flex justify-center items-center mb-[5.9rem] ">
+      <div className="GridProject flex justify-center items-center mb-[5.9rem] ">
         <ul
-          className="grid grid-cols-4 gap-x-12 gap-y-12 "
+          className=" GridProjectList grid grid-cols-4 gap-x-12 gap-y-12 "
           data-aos="fade-up"
           data-aos-delay="100"
           data-aos-duration="2800"
@@ -101,7 +104,7 @@ const PortfolioTitle = () => {
 
       <button
         onClick={handlerRenderCar}
-        className="flex justify-center items-center"
+        className="buttonShow w-[127.3rem] flex justify-center items-center"
       >
         <p
           className="flex text-[2.2rem] p-[4px]  justify-end items-center  gap-4 transition-all duration-300 opacity-40 hover:opacity-100 "

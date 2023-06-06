@@ -17,12 +17,13 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap: 8px;
+
       &Content {
         width: 600px;
         height: 200px;
       }
       & .imageAvatar {
+        margin-top: 1px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -30,6 +31,7 @@
         width: 48rem;
       }
       & .Button {
+        margin-top: -8rem;
         width: 500px;
         height: 50px;
         display: flex;
@@ -42,5 +44,82 @@
         }
       }
     }
+  }
+  //PageMedium
+  .PageTop {
+    width: 100%;
+  }
+  .AboutMeContainer {
+    max-width: 690px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .AboutMe {
+    width: 400px;
+
+    &Img {
+      width: 350px;
+      height: 350px;
+      opacity: 0.5;
+      position: relative;
+
+      & img {
+        width: 350px;
+        height: 350px;
+        background-color: wheat;
+        position: absolute;
+        left: 0%;
+        top: 25%;
+      }
+    }
+    &Content {
+      margin-top: 10rem;
+      & .chapter {
+        width: 150px;
+        background-color: #7b4ae2;
+      }
+      & p {
+        width: 450px;
+        font-size: 2.2rem;
+      }
+    }
+  }
+  .TextAbout {
+    & p {
+      font-size: 1.6rem;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+  .ContextProject {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 30px;
+    & h2 {
+      font-size: 3.6rem;
+    }
+    & div {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      & button {
+        padding: 10px 20px;
+      }
+    }
+  }
+  .GridProject {
+    width: 100%;
+    &List {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .buttonShow {
+    width: 100%;
+  }
+  #project {
+    margin-top: 54px;
   }
 }

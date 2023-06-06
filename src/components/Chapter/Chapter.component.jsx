@@ -8,7 +8,7 @@ const Chapter = (props) => {
   return (
     <div
       className={classNames(
-        " bground flexBox gap-3 bg-[#7B4AE2] h-18 rounded-lg chapter px-[1rem] py-[1rem]",
+        "chapter bground flexBox gap-3 bg-[#7B4AE2] h-18 rounded-lg chapter px-[1rem] py-[1rem]",
         css
       )}
     >

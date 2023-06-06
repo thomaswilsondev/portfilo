@@ -7,8 +7,8 @@ function App() {
   return (
     <>
       <PageTop />
-      {/* <PageMedium />
-      <PageBottom /> */}
+      <PageMedium />
+      {/* <PageBottom /> */}
     </>
   );
 }
