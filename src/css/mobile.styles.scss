@@ -191,17 +191,15 @@
 /* ----------------------BELOW 544px (Phones) ------------- */
 /* ************************************************************** */
 @media (max-width: 34em) {
-  body {
-    width: 100vw;
-  }
   //PageTop
   .PageTop {
     margin: 0;
     padding: 0;
-    width: 100vw;
-    padding-top: 50px;
+    width: 100%;
+    padding-top: 5rem;
   }
   .HeaderNavigation {
+    gap: 10rem;
     &Content {
       padding: 0px;
       flex-direction: column;
@@ -209,9 +207,10 @@
       align-items: center;
     }
   }
+
   .imageAvatar {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
   }
   //Page Medium
   .TextAbout {

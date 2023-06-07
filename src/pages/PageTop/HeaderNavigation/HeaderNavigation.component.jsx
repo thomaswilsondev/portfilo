@@ -61,13 +61,7 @@ const HeaderNavigation = () => {
       >
         <AvatarAndIcons className="AvatarHero" />
       </div>
-      <div
-        className="Button w-2/6 relative"
-        data-aos="fade-up"
-        data-aos-delay="1400"
-        data-aos-duration="2000"
-        data-aos-easing="ease-in-out"
-      >
+      <div className="Button w-2/6 relative">
         <a
           href="CV.pdf"
           download="CV.pdf"
