@@ -192,22 +192,17 @@
 /* ************************************************************** */
 @media (max-width: 34em) {
   .PageTop {
-    width: 100vw;
-    height: 100vh;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    width: auto;
     padding-top: 50px;
   }
-  .imageAvatar {
-    width: 300px;
-  }
   .HeaderNavigation {
-    & div {
-      width: 280px;
+    &Content {
+      padding: 0px;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
-    }
-    & div:nth-child(3) {
-      width: 300px;
     }
   }
 }
