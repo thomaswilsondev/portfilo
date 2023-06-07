@@ -48,6 +48,7 @@ const Contact = () => {
     const text = element.textContent;
     copyToClipboard(text);
   }
+
   return (
     <div
       className="contact-container  flexBoxStart "

@@ -30,7 +30,7 @@ const PortfolioTitle = () => {
   const renderItems = showAll ? lists[listIndex] : lists[listIndex].slice(0, 8);
   return (
     <div
-      className=" mx-[7.6rem] h-full  mb-[12.6rem]"
+      className="portFolioTitle mx-[7.6rem] h-full  mb-[12.6rem]"
       id="project"
       data-aos="fade-up"
       data-aos-delay="100"
@@ -55,35 +55,35 @@ const PortfolioTitle = () => {
         </h2>
         {/* List button */}
         <div
-          className="flex gap-6"
+          className="ListButton flex gap-6"
           data-aos="fade-up-left"
           data-aos-delay="100"
           data-aos-duration="2000"
         >
           <Button
-            cssText="text-[1.8rem] text-bold text-[#7B4AE2] opacity-50 "
+            cssText="text-[1.8rem] text-bold font-extrabold text-[#7B4AE2] opacity-80 "
             text="Done Project Large"
             css="h-18 rounded-lg "
             icon={
-              <BatteryFull className="icon w-12 h-12 stroke-[#7B4AE2] opacity-40 hover:stroke-white" />
+              <BatteryFull className="icon w-12 h-12 stroke-[#7B4AE2] opacity-80 hover:stroke-white" />
             }
             click={() => handleButtonClick(0)}
           />
           <Button
-            cssText="text-[1.8rem] text-bold text-[#7B4AE2] opacity-50 "
+            cssText="text-[1.8rem] text-bold font-extrabold text-[#7B4AE2] opacity-80 "
             text="Done Project Small"
             css="h-18 rounded-lg"
             icon={
-              <BatteryMedium className="icon w-16 h-16 stroke-[#7B4AE2] opacity-40 hover:stroke-white" />
+              <BatteryMedium className="icon w-16 h-16 stroke-[#7B4AE2] opacity-80 hover:stroke-white" />
             }
             click={() => handleButtonClick(1)}
           />
           <Button
-            cssText="text-[1.8rem] text-[#7B4AE2] opacity-50 "
+            cssText="text-[1.8rem] font-extrabold text-[#7B4AE2] opacity-80 "
             text="Doing Project "
             css="h-18 rounded-lg"
             icon={
-              <BatteryLow className="icon w-16 h-16 stroke-[#7B4AE2] opacity-40 hover:stroke-white" />
+              <BatteryLow className="icon w-16 h-16 stroke-[#7B4AE2] opacity-80 hover:stroke-white" />
             }
             click={() => handleButtonClick(2)}
           />

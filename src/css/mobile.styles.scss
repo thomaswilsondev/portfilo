@@ -191,6 +191,7 @@
 /* ----------------------BELOW 544px (Phones) ------------- */
 /* ************************************************************** */
 @media (max-width: 34em) {
+  //PageTop
   .PageTop {
     margin: 0;
     padding: 0;
@@ -204,5 +205,77 @@
       justify-content: center;
       align-items: center;
     }
+  }
+  //Page Medium
+  .TextAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & .chapter {
+      width: 120px;
+      background-color: rgba(123, 74, 226, 0.2);
+    }
+    & h3 {
+      font-size: 3.8rem;
+      font-family: "Times New Roman", Times, serif;
+    }
+    & p {
+      width: 400px;
+    }
+  }
+  .portFolioTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ListButton {
+    & button {
+      width: 220px;
+      & span {
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+  .GridProjectList {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .skills-container {
+    & h2 {
+      font-size: 3.8rem;
+    }
+    & .skillItem {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      & h4 {
+        font-size: 2.4rem;
+      }
+      & .SkillsItemContainer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  }
+  .flexBoxStartColum {
+    padding-top: 3rem 3rem;
+    width: 100%;
+  }
+  .contact-EmailPhone {
+    width: 100%;
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 5rem;
+  }
+  .buttonBackTop {
+    margin-top: 0px;
   }
 }

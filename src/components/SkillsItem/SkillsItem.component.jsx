@@ -8,8 +8,8 @@ const SkillsItem = (props) => {
   const { css, data, text } = props;
 
   return (
-    <>
-      <h4 className="text-white text-[24px] opacity-50 mb-[52px]">{text}</h4>
+    <div className="skillItem">
+      <h4 className="text-white text-[2.4rem] opacity-50 mb-[52px]">{text}</h4>
       <ul
         className={classNames(
           "SkillsItemContainer mb-[71px] flexBox gap-12",
@@ -29,7 +29,7 @@ const SkillsItem = (props) => {
           );
         })}
       </ul>
-    </>
+    </div>
   );
 };
 export default SkillsItem;
