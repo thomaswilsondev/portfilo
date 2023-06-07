@@ -139,8 +139,8 @@
   }
   /// Bottom
   .contact {
-    &-container {
-      padding: 50px;
+    &-information {
+      gap: 3rem;
     }
     &-EmailPhone {
       width: 600px;
@@ -149,12 +149,16 @@
   }
   .buttonBackTop {
     margin-top: 50px;
-    margin-left: 45px;
+    margin-bottom: 40px;
     transition: all 0.3s;
     &:hover {
       opacity: 1;
       color: #7b4ae2;
     }
+  }
+  .PageBottom {
+    padding-top: 40px;
+    width: 100%;
   }
   footer {
     flex-direction: column;
