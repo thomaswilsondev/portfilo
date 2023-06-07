@@ -53,7 +53,7 @@ const Contact = () => {
     <div
       className="contact-container  flexBoxStart "
       id="contact"
-      data-aos="zoom-in"
+      data-aos="zoom-in-down"
       data-aos-delay="50"
       data-aos-duration="2000"
     >

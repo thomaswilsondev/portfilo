@@ -10,8 +10,8 @@ const PageBottom = () => {
       data-aos-delay="100"
       data-aos-duration="2800"
     >
-      {/* <Contact />
-      <Footer /> */}
+      <Contact />
+      <Footer />
     </section>
   );
 };
