@@ -27,7 +27,7 @@ const projectLargeData = [
     technology: ["Matlab"],
     tools: ["Matlab", "Notion", "Github"],
     image: ["https://drive.google.com/uc?id=1WEqKLwsCyPdx4fd9h-bWDcErb-0oaI5p"],
-    url: "https://github.com/thomaswilsondev/MatlabProject",
+    url: "https://whimsical-travesseiro-1d5397.netlify.app/",
   },
   {
     id: 4,
