@@ -12,6 +12,7 @@
       position: absolute;
     }
   }
+
   // HeaderNavigation
   .HeaderNavigation {
     height: 100vh;
@@ -59,6 +60,19 @@
   }
   .buttonShow {
     width: 100%;
+  }
+  .GridProject {
+    &List {
+      & p {
+        height: 50px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .imgContainer {
+    margin-left: 24px;
+    height: 200px;
+    width: 300px;
   }
   .programmingContainer {
     margin-top: 25px;

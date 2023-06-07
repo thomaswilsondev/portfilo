@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <footer className="w-full h-[75px] bg-color footer-container  left-[-7%]  bottom-0 flex justify-evenly ">
       <p className="text-footer flexBox flex-1  text-white opacity-50 text-[1.6rem] font-bold  ">
-        Copyright © BaoBao · 2023
+        Copyright © Henrique Sousa · 2023
       </p>
       <div className="flexBox flex-1 gap-12  ">
         <a
