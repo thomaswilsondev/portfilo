@@ -5,11 +5,11 @@ import "../src/css/mobile.styles.scss";
 
 function App() {
   return (
-    <>
+    <div className="App">
       <PageTop />
-      {/* <PageMedium />
-      <PageBottom /> */}
-    </>
+      {/* <PageMedium /> */}
+      {/* <PageBottom /> */}
+    </div>
   );
 }
 
