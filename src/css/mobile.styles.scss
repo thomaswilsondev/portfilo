@@ -19,7 +19,7 @@
       align-items: center;
 
       &Content {
-        width: 600px;
+        width: 450px;
         height: 200px;
       }
       & .imageAvatar {
@@ -184,6 +184,30 @@
     }
     & .div-hidden {
       display: none;
+    }
+  }
+}
+/* ************************************************************** */
+/* ----------------------BELOW 544px (Phones) ------------- */
+/* ************************************************************** */
+@media (max-width: 34em) {
+  .PageTop {
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    padding-top: 50px;
+  }
+  .imageAvatar {
+    width: 300px;
+  }
+  .HeaderNavigation {
+    & div {
+      width: 280px;
+      justify-content: center;
+      align-items: center;
+    }
+    & div:nth-child(3) {
+      width: 300px;
     }
   }
 }

@@ -16,7 +16,7 @@ const HeaderNavigation = () => {
         data-aos-duration="2000"
         data-aos-easing="ease-in-out"
       >
-        <Chapter css="" cssText="text-[2rem]   " text="👋 Greetings!" />
+        <Chapter cssText="text-[2rem]   " text="👋 Greetings!" />
         <h1 className="text-[42px] text-white font-extrabold">
           LE TAN BAO BAO
         </h1>
