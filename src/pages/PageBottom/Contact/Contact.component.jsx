@@ -68,7 +68,7 @@ const Contact = () => {
             </h3>
           </div>
 
-          <div className="flexBox gap-[4rem] contact-EmailPhone">
+          <div className="flexBox contact-EmailPhone">
             <buton className=" flexBox gap-8 text-[#7B4AE2] rounded-md px-12  py-4 border-2 border-[#7B4AE2]  hover:stroke-white hover:bg-[#7B4AE2] hover:text-white transition-all duration-300 ">
               <Phone className="w-12 h-12 " />
               <span className=" font-semibold text-[2rem]">Call me</span>
@@ -97,7 +97,7 @@ const Contact = () => {
         </div>
         <a
           href="#home"
-          className="flexBox gap-12 opacity-50 hover:opacity-30 transition-all duration-300 "
+          className="buttonBackTop flexBox gap-6 opacity-50 hover:opacity-30 transition-all duration-300"
         >
           <span className="text-[#7B4AE2] text-[2rem] font-semibold ">
             Back to the top

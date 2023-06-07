@@ -10,7 +10,7 @@ import { skillData, otherTechnologies } from "../../../data/skill.data";
 const Skills = () => {
   return (
     <div
-      className="skills-container flexBoxColum pb-[14rem] mt[2.6rem]"
+      className="skills-container flexBoxColum border-b-2 border-[#7B4AE2] pb-[2rem] mt[2.6rem]"
       data-aos="fade-up"
       data-aos-delay="100"
       data-aos-duration="2800"

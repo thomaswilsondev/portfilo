@@ -137,4 +137,49 @@
       padding: 5px 30px;
     }
   }
+  /// Bottom
+  .contact {
+    &-container {
+      padding: 50px;
+    }
+    &-EmailPhone {
+      width: 600px;
+      gap: 10rem;
+    }
+  }
+  .buttonBackTop {
+    margin-top: 50px;
+    margin-left: 45px;
+    transition: all 0.3s;
+    &:hover {
+      opacity: 1;
+      color: #7b4ae2;
+    }
+  }
+  footer {
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px;
+
+    & div {
+      & .icon {
+        width: 34px;
+        height: 34px;
+        background-color: aliceblue;
+        svg {
+          width: 24px;
+          height: 24px;
+        }
+        &:hover {
+          background-color: wheat;
+        }
+      }
+    }
+    & .text-footer {
+      display: none;
+    }
+    & .div-hidden {
+      display: none;
+    }
+  }
 }

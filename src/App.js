@@ -8,7 +8,7 @@ function App() {
     <>
       <PageTop />
       <PageMedium />
-      {/* <PageBottom /> */}
+      <PageBottom />
     </>
   );
 }
