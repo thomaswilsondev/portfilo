@@ -256,89 +256,182 @@
       }
     }
   }
+  //PageMedium
+  .PageMedium {
+    width: 100%;
+  }
+  .AboutMeContainer {
+    max-width: 690px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .AboutMe {
+    width: 300px;
 
-  //   //Page Medium
-  //   .AboutMe {
-  //     &Container {
-  //       max-width: 544px;
-  //     }
-  //   }
-  //   .PageMedium {
-  //     display: flex;
-  //     flex-direction: column;
-  //     align-items: center;
-  //   }
-  //   .TextAbout {
-  //     display: flex;
-  //     flex-direction: column;
-  //     justify-content: center;
-  //     align-items: center;
-  //     & .chapter {
-  //       width: 120px;
-  //       background-color: rgba(123, 74, 226, 0.2);
-  //     }
-  //     & h3 {
-  //       font-size: 3.8rem;
-  //       font-family: "Times New Roman", Times, serif;
-  //     }
-  //     & p {
-  //       width: 400px;
-  //     }
-  //   }
-  //   .portFolioTitle {
-  //     margin: 0px;
-  //     width: 450px;
-  //     display: flex;
-  //     flex-direction: column;
-  //     justify-content: center;
-  //     align-items: center;
-  //   }
+    &Img {
+      width: 250px;
+      height: 250px;
+      opacity: 0.5;
+      position: relative;
 
-  //   .ListButton {
-  //     & button {
-  //       width: 220px;
-  //       & span {
-  //         font-size: 1.4rem;
-  //       }
-  //     }
-  //   }
+      & img {
+        width: 250px;
+        height: 250px;
+        background-color: wheat;
+        position: absolute;
+        left: 0%;
+        top: 25%;
+      }
+    }
+    &Content {
+      width: 350px;
+      margin-top: 10rem;
+      & .chapter {
+        margin: 0 auto;
+        width: 150px;
+        background-color: rgba(123, 74, 226, 0.2);
+      }
+      & h3 {
+        font-size: 3rem;
+        font-weight: 700;
+        margin: 0 auto;
+      }
+      & p {
+        width: 350px;
+        font-size: 1.8rem;
+        line-height: 1.5;
+      }
+    }
+  }
+  .TextAbout {
+    & p {
+      font-size: 1.6rem;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+  //project
+  .ContextProject {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 30px;
+    & h2 {
+      font-size: 3.6rem;
+    }
+    & div {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      & button {
+        padding: 10px 20px;
+        & svg {
+          width: 24px;
+          height: 24px;
+        }
+        & span {
+          font-size: 1.6rem;
+        }
+      }
+    }
+  }
+  .GridProject {
+    width: 100%;
+    &List {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  .buttonShow {
+    width: 100%;
+    & p span {
+      font-size: 1.6rem;
+    }
+  }
+  #project {
+    margin-top: 54px;
+  }
+  .SkillsItemContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .skills-container {
+    & div {
+      & h4 {
+        text-align: center;
+        font-size: 1.8rem;
+      }
+      & ul li {
+        & span {
+          font-size: 1.6rem;
+        }
+      }
+    }
+    h2 {
+      font-size: 2.6rem;
+      margin-bottom: 60px;
+    }
+  }
+  .programmingContainer {
+    margin-top: 12px;
+    & span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      width: 40px;
+      padding: 5px 30px;
+    }
+  }
+  /// Bottom
+  .contact {
+    &-information {
+      gap: 3rem;
+    }
+    &-EmailPhone {
+      width: 100%;
+      flex-direction: column;
+      gap: 5rem;
+    }
+  }
+  .buttonBackTop {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    transition: all 0.3s;
+    &:hover {
+      opacity: 1;
+      color: #7b4ae2;
+    }
+  }
+  .PageBottom {
+    padding-top: 40px;
+    width: 100%;
+  }
+  footer {
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px;
 
-  //   .icon {
-  //     width: 24px;
-  //     height: 24px;
-  //   }
-  //   .GridProjectList {
-  //     grid-template-columns: repeat(1, 1fr);
-  //   }
-  //   .skills-container {
-  //     & h2 {
-  //       font-size: 3.8rem;
-  //     }
-  //     & .skillItem {
-  //       display: flex;
-  //       flex-direction: column;
-  //       align-items: center;
-  //       justify-content: center;
-  //       & h4 {
-  //         font-size: 2.4rem;
-  //       }
-  //       & .SkillsItemContainer {
-  //         display: grid;
-  //         grid-template-columns: repeat(3, 1fr);
-  //       }
-  //     }
-  //   }
-  //   .flexBoxStartColum {
-  //     padding-top: 3rem 3rem;
-  //     width: 100%;
-  //   }
-  //   .contact-EmailPhone {
-  //     width: 100%;
-  //     flex-direction: column;
-  //     gap: 3rem;
-  //     margin-bottom: 5rem;
-  //   }
-  //   .buttonBackTop {
-  //     margin-top: 0px;
-  //   }
+    & div {
+      & .icon {
+        width: 34px;
+        height: 34px;
+        background-color: aliceblue;
+        svg {
+          width: 24px;
+          height: 24px;
+        }
+        &:hover {
+          background-color: wheat;
+        }
+      }
+    }
+    & .text-footer {
+      display: none;
+    }
+    & .div-hidden {
+      display: none;
+    }
+  }
 }

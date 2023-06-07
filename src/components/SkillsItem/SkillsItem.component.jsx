@@ -19,10 +19,13 @@ const SkillsItem = (props) => {
         data-aos-delay="100"
         data-aos-duration="2000"
       >
-        {data.map((skill) => {
+        {data.map((skill, idx) => {
           const { name, svg } = skill;
           return (
-            <li className=" flex flex-col justify-center items-center gap-2 font-bold">
+            <li
+              key={idx}
+              className=" flex flex-col justify-center items-center gap-2 font-bold"
+            >
               <div>{svg}</div>
               <span className="text-[22px] text-white">{name}</span>
             </li>

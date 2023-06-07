@@ -48,7 +48,10 @@ const Contact = () => {
     const text = element.textContent;
     copyToClipboard(text);
   }
-
+  function callNumber() {
+    var number = "555-666-7777";
+    window.location.replace("tel:" + number);
+  }
   return (
     <div
       className="contact-container  flexBoxStart "
@@ -70,7 +73,10 @@ const Contact = () => {
           </div>
 
           <div className="flexBox contact-EmailPhone">
-            <buton className=" flexBox gap-8 text-[#7B4AE2] rounded-md px-12  py-4 border-2 border-[#7B4AE2]  hover:stroke-white hover:bg-[#7B4AE2] hover:text-white transition-all duration-300 ">
+            <buton
+              onClick={callNumber}
+              className=" flexBox gap-8 text-[#7B4AE2] rounded-md px-12  py-4 border-2 border-[#7B4AE2]  hover:stroke-white hover:bg-[#7B4AE2] hover:text-white transition-all duration-300 "
+            >
               <Phone className="w-12 h-12 " />
               <span className=" font-semibold text-[2rem]">Call me</span>
             </buton>
