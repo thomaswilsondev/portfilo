@@ -1,5 +1,6 @@
 // COMPONENTS
 import Chapter from "../../../components/Chapter/Chapter.component";
+import Avatar from "../../../assets/avatar.png";
 const AboutMe = () => {
   return (
     <div
@@ -14,16 +15,13 @@ const AboutMe = () => {
         data-aos-delay="100"
         data-aos-duration="2500"
       >
-        <div className="AboutMeImg relative bg-white rounded-full ">
-          <img
-            className="rounded-full"
-            src="../../../assets/avatar.png"
-            alt="avatar"
-          />
+        <div className="AboutMeImg relative rounded-full ">
+          <div className=" AboutMeBoder rounded-full bg-white"></div>
+          <img className="rounded-full " src={Avatar} alt="Avatar" />
         </div>
       </div>
       <div
-        className="TextAbout w-2/3 AboutMeContent flex-1 flex flex-col gap-8"
+        className="TextAbout w-2/3 AboutMeContent flex-1 flex flex-col gap-8 z-50"
         data-aos="fade-up-left"
         data-aos-delay="100"
         data-aos-duration="2500"

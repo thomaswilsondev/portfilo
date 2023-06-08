@@ -58,20 +58,20 @@
   }
   .AboutMe {
     width: 400px;
-
+    &Boder {
+      width: 250px;
+      height: 250px;
+      opacity: 0.8;
+    }
     &Img {
-      width: 350px;
-      height: 350px;
-      opacity: 0.5;
       position: relative;
-
       & img {
-        width: 350px;
-        height: 350px;
-        background-color: wheat;
+        width: 550px;
+        opacity: 1;
+        height: 550px;
         position: absolute;
         left: 0%;
-        top: 25%;
+        top: -50px;
       }
     }
     &Content {
@@ -275,19 +275,20 @@
   .AboutMe {
     width: 300px;
 
+    &Boder {
+      width: 450px;
+      height: 450px;
+      opacity: 0.8;
+    }
     &Img {
-      width: 250px;
-      height: 250px;
-      opacity: 0.5;
       position: relative;
-
       & img {
-        width: 250px;
-        height: 250px;
-        background-color: wheat;
+        width: 550px;
+        opacity: 1;
+        height: 550px;
         position: absolute;
         left: 0%;
-        top: 25%;
+        top: -50px;
       }
     }
     &Content {

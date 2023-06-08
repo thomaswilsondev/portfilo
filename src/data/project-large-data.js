@@ -43,7 +43,7 @@ const projectLargeData = [
     id: 5,
     name: "Pong_Socket",
     description:
-      "This project is a simplified version of the classic video game Pong, which was originally developed by Atari in 1972. The game involves controlling two barriers to push a ball between two players, with the aim of scoring points by hitting the ball over the opponent's bar.",
+      "This project is a simplified version of the classic video game Pong, which was originally developed by Atari in 1972.",
     technology: ["HTML", "CSS", "JS"],
     tools: ["Figma", "Notion ", "Github"],
     image: ["https://drive.google.com/uc?id=1qHNps5Bnz6hzLfk9s2YSaigYoji8MVlM"],

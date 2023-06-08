@@ -126,3 +126,22 @@ a[href="#about"]:active .snake {
     transform: translateY(0px);
   }
 }
+.AboutMe {
+  width: 600px;
+  &Boder {
+    width: 450px;
+    height: 450px;
+    opacity: 0.8;
+  }
+  &Img {
+    position: relative;
+    & img {
+      width: 550px;
+      opacity: 1;
+      height: 550px;
+      position: absolute;
+      left: 0%;
+      top: -50px;
+    }
+  }
+}

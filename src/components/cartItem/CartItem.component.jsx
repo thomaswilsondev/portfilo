@@ -25,13 +25,13 @@ const CartItem = (props) => {
         )}
       </div>
       <div className="flex gap-4 mb-[2.2rem]">
-        {data.tools.map((item, idx) => (
-          <Programming
-            key={idx}
-            color="colorPuple p-[3px] mb-[20px]"
-            text={item}
-          />
-        ))}
+        {data.tools.map((item, idx) =>
+          idx === 0 ? (
+            <Programming key={idx} color="colorGreen" text={item} />
+          ) : (
+            <Programming key={idx} color="colorPuple" text={item} />
+          )
+        )}
       </div>
       <div className="imager">
         <img
