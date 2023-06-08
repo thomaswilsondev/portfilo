@@ -77,6 +77,9 @@
       }
     }
   }
+  .GridProjectList {
+    grid-template-columns: repeat(4, 1fr);
+  }
   .imgContainer {
     margin-left: 24px;
     height: 200px;
@@ -127,9 +130,6 @@
   .contact-container .flexBoxStartColum a {
     padding-top: 40px;
   }
-  .GridProjectList {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 @media (min-width: 100em) {
   .li-cart {
@@ -137,7 +137,9 @@
       height: 10rem;
     }
   }
-
+  .GridProjectList {
+    grid-template-columns: repeat(3, 1fr);
+  }
   .buttonShow {
     width: 100%;
   }

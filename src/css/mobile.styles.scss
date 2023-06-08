@@ -45,6 +45,12 @@
       }
     }
   }
+  #message {
+    top: 5%;
+    left: 50%;
+
+    width: 300px;
+  }
   //PageMedium
   .PageTop {
     width: 100%;
@@ -279,6 +285,7 @@
     width: 100%;
   }
   .AboutMeContainer {
+    padding-right: 10rem;
     max-width: 690px;
     flex-direction: column;
     justify-content: center;
@@ -288,15 +295,15 @@
   .AboutMe {
     width: 300px;
     &Boder {
-      width: 350px;
-      height: 350px;
+      width: 300px;
+      height: 300px;
       opacity: 0.8;
     }
     &Img {
       position: relative;
       & img {
-        width: 450px;
-        height: 450px;
+        width: 400px;
+        height: 400px;
         opacity: 1;
         position: absolute;
         left: 0%;
@@ -308,8 +315,8 @@
       margin-top: 10rem;
       & .chapter {
         margin: 0 auto;
-        width: 150px;
-        background-color: rgba(123, 74, 226, 0.2);
+        width: 18rem;
+        background-color: rgba(123, 74, 226, 0.1);
       }
       & h3 {
         font-size: 3rem;
@@ -455,5 +462,14 @@
     & .div-hidden {
       display: none;
     }
+  }
+  .contact-container {
+    height: 500px;
+  }
+  #message {
+    top: 5%;
+    left: 50%;
+
+    width: 300px;
   }
 }

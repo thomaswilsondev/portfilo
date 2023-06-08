@@ -54,7 +54,7 @@ const Contact = () => {
   }
   return (
     <div
-      className="contact-container  flexBoxStart "
+      className="contact-container h-[400px] mt-[60px] mb-[40px]  flexBoxStart "
       id="contact"
       data-aos="zoom-in-down"
       data-aos-delay="50"
@@ -72,7 +72,7 @@ const Contact = () => {
             </h3>
           </div>
 
-          <div className="flexBox contact-EmailPhone">
+          <div className="flexBox contact-EmailPhone gap-[10rem] mb-[40px]">
             <buton
               onClick={callNumber}
               className=" flexBox gap-8 text-[#7B4AE2] rounded-md px-12  py-4 border-2 border-[#7B4AE2]  hover:stroke-white hover:bg-[#7B4AE2] hover:text-white transition-all duration-300 "
