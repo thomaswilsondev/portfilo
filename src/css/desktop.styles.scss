@@ -1,7 +1,7 @@
 /**************************/
 /* BELOW 1344px (Smaller desktops) */
 /**************************/
-@media (min-width: 84em) and (max-width: 90em) {
+@media (min-width: 56em) and (max-width: 90em) {
   // PageTop
   .PageTop {
     width: 100%;
@@ -78,7 +78,7 @@
     }
   }
   .GridProjectList {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .imgContainer {
     margin-left: 24px;
@@ -138,7 +138,7 @@
     }
   }
   .GridProjectList {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
   .buttonShow {
     width: 100%;
