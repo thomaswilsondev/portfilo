@@ -1,8 +1,7 @@
 /**************************/
 /* BELOW 1344px (Smaller desktops) */
 /**************************/
-
-@media (min-width: 84em) and (min-width: 59em) {
+@media (min-width: 84em) {
   // PageTop
   .PageTop {
     width: 100%;
@@ -84,6 +83,11 @@
       padding: 5px 5px;
     }
   }
+  .li-cart {
+    p {
+      height: 100px;
+    }
+  }
   .contact {
     &-information {
       gap: 2rem;
@@ -113,5 +117,8 @@
 
   .contact-container .flexBoxStartColum a {
     padding-top: 40px;
+  }
+  .GridProjectList {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
