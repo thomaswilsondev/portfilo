@@ -58,20 +58,23 @@
   }
   .AboutMe {
     width: 400px;
+    height: 500px;
     &Boder {
-      width: 450px;
-      height: 450px;
+      width: 400px;
+      height: 400px;
       opacity: 0.8;
     }
     &Img {
+      height: 100%;
+      width: 100%;
       position: relative;
       & img {
-        width: 550px;
+        width: 500px;
         opacity: 1;
-        height: 550px;
+        height: 500px;
         position: absolute;
         left: 0%;
-        top: -50px;
+        top: -40px;
       }
     }
     &Content {
@@ -190,7 +193,7 @@
 /* ************************************************************** */
 /* ----------------------BELOW 544px (Phones) ------------- */
 /* ************************************************************** */
-@media (max-width: 50em) {
+@media (max-width: 40em) {
   html {
     width: 100%;
   }

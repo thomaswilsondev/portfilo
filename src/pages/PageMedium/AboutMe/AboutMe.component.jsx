@@ -4,7 +4,7 @@ import Avatar from "../../../assets/avatar.png";
 const AboutMe = () => {
   return (
     <div
-      className="AboutMeContainer flex gap-12  mb-[14.7rem] "
+      className="AboutMeContainer w-full px-[10rem] flex gap-12  mb-[14.7rem] "
       data-aos="fade-up"
       data-aos-delay="100"
       data-aos-duration="2800"
